@@ -10,7 +10,7 @@
 // }
 
 get_header(); ?>
-9999
+
 
 <div class="position-relative">
     <img class="w-100 dummy-banner-img"

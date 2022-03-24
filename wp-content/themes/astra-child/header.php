@@ -58,7 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
 
 
-    <?php echo 999;?>
+    <?php echo get_site_url();?>
     <?php astra_body_top(); ?>
     <?php wp_body_open(); ?>
     <div <?php

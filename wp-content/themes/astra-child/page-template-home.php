@@ -132,7 +132,7 @@ get_header(); ?>
                         // $trimmed_content = wp_trim_words( get_the_excerpt(), $num_words = 55, $more = null );
 
 
-                        echo get_excerpt();?>
+                       // echo get_excerpt();?>
                     </div>
 
                     <div class="text-end">

@@ -1,0 +1,55 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: Linux
+Software 		: Apache/2.4.25 (Debian)
+MySQL version 		: 5.5.5
+XML Reader 		: Yes
+PHP Version 		: 7.3.14-5+0~20200202.52+debian9~1.gbpa71879
+PHP Max Input Vars 	: 2500
+PHP Max Post Size 	: 10M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 60
+Max Upload Size 	: 10 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: Asia/Hong_Kong
+
+-----
+
+Importing Started! - 10:46:32 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Importing from XML https://websitedemos.net/wp-content/uploads/astra-sites/236/wxr.xml
+Inserted - Term 443 - {"term_id":443,"name":"Uncategorized","slug":"uncategorized","term_group":0,"term_taxonomy_id":443,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Post 12 - page - Why choose me
+Inserted - Post 946 - page - Testimonials
+Inserted - Post 948 - nav_menu_item - 
+Inserted - Post 949 - nav_menu_item - 
+Inserted - Post 23 - nav_menu_item - 
+Inserted - Post 950 - attachment - lady-accountant
+Inserted - Post 951 - attachment - accountant-yoast-img
+Imported - Site Options {"woocommerce_product_attributes":[],"woocommerce_product_cat_list":[],"woocommerce_product_cat":[],"custom_logo":"https:\/\/websitedemos.net\/chartered-accountant-02\/wp-content\/uploads\/sites\/236\/2019\/06\/logo1.png","nav_menu_locations":{"primary":"menu","footer_menu":"menu"},"show_on_front":"page","page_on_front":"Home","page_for_posts":"","_fl_builder_enabled_icons":null,"_fl_builder_enabled_modules":null,"_fl_builder_post_types":null,"_fl_builder_color_presets":null,"_fl_builder_services":null,"_fl_builder_settings":null,"_fl_builder_user_access":null,"_fl_builder_enabled_templates":null,"elementor_container_width":"1200","elementor_cpt_support":["post","page"],"elementor_css_print_method":"external","elementor_default_generic_fonts":"Sans-serif","elementor_disable_color_schemes":"yes","elementor_disable_typography_schemes":"yes","elementor_editor_break_lines":"","elementor_exclude_user_roles":null,"elementor_global_image_lightbox":null,"elementor_page_title_selector":null,"elementor_scheme_color":{"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70"},"elementor_scheme_color-picker]":{"1":"#5d7280","2":"#ffffff","3":"#ffffff","4":"#000f23","5":"#d7a993","6":"#e05414","7":"#000000","8":"#ffffff"},"elementor_scheme_typography":{"1":{"font_family":"Roboto","font_weight":"600"},"2":{"font_family":"Roboto Slab","font_weight":"400"},"3":{"font_family":"Roboto","font_weight":"400"},"4":{"font_family":"Roboto","font_weight":"500"}},"elementor_space_between_widgets":"10","elementor_stretched_section_container":null,"elementor_load_fa4_shim":"yes","woocommerce_shop_page_title":"","woocommerce_cart_page_title":"","woocommerce_checkout_page_title":"","woocommerce_myaccount_page_title":"","woocommerce_edit_address_page_title":"","woocommerce_view_order_page_title":"","woocommerce_change_password_page_title":"","woocommerce_logout_page_title":"","woocommerce_enable_guest_checkout":null,"woocommerce_enable_checkout_login_reminder":null,"woocommerce_enable_signup_and_login_from_checkout":null,"woocommerce_enable_myaccount_registration":null,"woocommerce_registration_generate_username":null,"wpforms_settings":{"disable-css":"2","global-assets":false,"gdpr":false},"learndash_settings_theme_ld30":null,"learndash_settings_courses_themes":null}
+Complete 
+Batch Process Started!
+Astra Sites - Importing Images for Blog name '算數 CountAudit' (1)
+---- Processing Images from Widgets -----
+---- Processing WordPress Posts / Pages - for "Gutenberg" ----
+---- Processing Mapping - for Astra Pro ----
+---- Processing MISC ----
+Post ID: 947
+Post ID: 945
+Post ID: 773
+Post ID: 543
+Post ID: 379
+Post ID: 369
+Post ID: 372
+Post ID: 371
+Post ID: 367
+Post ID: 366
+Batch Process Complete!

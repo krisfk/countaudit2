@@ -131,8 +131,8 @@ get_header(); ?>
                         <?php 
                         // $trimmed_content = wp_trim_words( get_the_excerpt(), $num_words = 55, $more = null );
 
-
-                       // echo get_excerpt();?>
+                        // substr($excerpt, 0, 50);
+                       echo substr(get_excerpt(),0,50)?>
                     </div>
 
                     <div class="text-end">

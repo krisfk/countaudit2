@@ -127,7 +127,7 @@ get_header(); ?>
                 <div class="white-bg blue  ps-4 pe-4 pb-4">
                     <h3 class="text-center blue pt-3"><?php echo get_the_title();?></h3>
                     <div class="pt-2 pb-3" style="display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     max-height: 81px;
     font-size: 15px;

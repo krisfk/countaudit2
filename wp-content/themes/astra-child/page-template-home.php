@@ -129,11 +129,11 @@ get_header(); ?>
                     <div class="pt-2 pb-3" style="display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    max-height: 81px;
+    max-height: 68px;
     font-size: 15px;
     line-height: 19px;
     overflow: hidden;
-    text-overflow: ellipsis;">
+    text-overflow: ellipsis;margin-bottom:0.5rem">
                         <!-- 我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！ -->
                         <?php 
                         echo get_the_excerpt();

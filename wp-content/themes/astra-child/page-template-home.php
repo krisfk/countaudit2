@@ -130,7 +130,7 @@ get_header(); ?>
                         <!-- 我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！ -->
                         <?php 
                         
-                        echo substr(get_the_excerpt(),0,100)?>
+                        echo substr(get_the_excerpt(),0,200)?>...
                     </div>
 
                     <div class="text-end">

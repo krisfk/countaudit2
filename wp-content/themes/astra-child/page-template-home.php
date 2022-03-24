@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div class="position-relative">
     <img class="w-100 dummy-banner-img"
-        src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-4.jpg.webp" alt="">
+        src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/main-banner-bg-4.jpg" alt="">
 
     <div class="position-absolute w-100 h-100 top-0 left-0">
         <?php echo get_field('banners');?>

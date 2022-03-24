@@ -128,7 +128,11 @@ get_header(); ?>
                     <h3 class="text-center blue pt-3"><?php echo get_the_title();?></h3>
                     <div class="pt-2 pb-3">
                         <!-- 我們公司行政人手不足，導致帳目非常混亂。選用了CountAudit的雲端會計服務後，帳目立時變得清晰及容易查看！ -->
-                        <?php echo get_the_excerpt();?>
+                        <?php 
+                        $trimmed_content = wp_trim_words( get_the_excerpt(), $num_words = 55, $more = null );
+
+
+                        echo $trimmed_content;?>
                     </div>
 
                     <div class="text-end">

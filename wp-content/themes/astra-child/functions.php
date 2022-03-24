@@ -140,3 +140,16 @@ function receive_email_func() {
 	$receive_email = 'enquiry@countaudit.hk';
 }
 add_action( 'after_setup_theme', 'receive_email_func' );
+
+function get_excerpt(){
+	$excerpt = get_the_content();
+	$excerpt = preg_replace(" ([.*?])",'',$excerpt);
+	$excerpt = strip_shortcodes($excerpt);
+	$excerpt = strip_tags($excerpt);
+	$excerpt = substr($excerpt, 0, 50);
+	$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+	$excerpt = trim(preg_replace( '/\s+/', ' ', $excerpt));
+	$excerpt = $excerpt.'... <a href="'.get_the_permalink().'">more</a>';
+	return $excerpt;
+	}
+	

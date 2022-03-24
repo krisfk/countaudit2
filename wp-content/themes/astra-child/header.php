@@ -149,7 +149,7 @@ $class = $menu_item['class'];
 
 //  
 $temp_arr=explode(get_site_url(),$url);
-// echo 9999;
+// echo 9999;//
 $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
 $slug=str_replace('/','',$slug);

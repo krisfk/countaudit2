@@ -217,7 +217,7 @@ echo'</li>';
 
                     $('.submenu-arrow').click(function() {
                         $(this).next('.level-1.parent').click();
-
+                        // 
                     })
 
                     $('.level-1.parent').click(function() {
